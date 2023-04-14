@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+body {
+	font-family: "Lato";
+	color: #000000;
+	background-color: #ffffff;
+}
+
+[class*="__container"] {
+	max-width: 1260px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.page__one {
+	margin-top: 25px;
+}
+
+.head__container {
+	margin-top: 25px;
+}
+.head__title {
+	font-size: 30px;
+}
+.head__subtitle {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.input__container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.input__container-task {
+	display: flex;
+	gap: 15px;
+	margin-bottom: 20px;
+}
+
+.input__task-number {
+	outline: 1px solid;
+}
+.input__task-button {
+	display: flex;
+	gap: 22px;
+	margin-bottom: 20px;
+}
+.button {
+	border: 1px solid #000000;
+	color: #000000;
+}
+
+.grades__table-container {
+	margin-bottom: 15px;
+}
+
+.grades__table-container tr td {
+	border: 1px solid #000000;
+	color: #000000;
+}
